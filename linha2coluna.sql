@@ -1,5 +1,5 @@
 /*
-Transformar linha (registro) em coluna (xml,json)
+Migracao - Transformar linha (registro) em coluna (xml,json)
 SELECT * FROM STD_PERSON
 */
 SELECT
@@ -30,9 +30,9 @@ FROM STD_PERSON
   )
 WHERE 1=1
 AND STD_ID_PERSON = 350533
-/*
+/* resultado
 1	CODIGO	350533
 2	NOME	FERNANDA 
-3	MAE	JANETE 
-4	PAI	FERNANDO 
+3	MAE	    JANETE 
+4	PAI	    FERNANDO 
 */
