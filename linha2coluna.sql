@@ -1,5 +1,5 @@
 /*
-Transformar linha (registro) em coluna (xml)
+Transformar linha (registro) em coluna (xml,json)
 SELECT * FROM STD_PERSON
 */
 SELECT
